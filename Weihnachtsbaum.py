@@ -1,8 +1,6 @@
 
-
 width = int(input("Bitte breite eingeben: "))
 height = int(input("Bitte Höhe eingeben: "))
-
 
 for i in range(height):
     for  j in range(width):
@@ -25,9 +23,6 @@ for i in range(height*2):
         count -=1
     if(count == height):
        maxErreicht = True; 
-    
-
-
 
 for i in range(1, height + 1):
     kugeln = i * 2  - 1
